@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="39.512197 us"></ZoomEndTime>
+      <Cursor1Time time="36.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="267"></NameColumnWidth>
+      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="46" />
+   <wvobject fp_name="/testbench_top/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider85">
+   </wvobject>
+   <wvobject fp_name="/testbench_top/uart_txd_in" type="logic">
+      <obj_property name="ElementShortName">uart_txd_in</obj_property>
+      <obj_property name="ObjectShortName">uart_txd_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/uart_rxd_out" type="logic">
+      <obj_property name="ElementShortName">uart_rxd_out</obj_property>
+      <obj_property name="ObjectShortName">uart_rxd_out</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider88">
+   </wvobject>
+   <wvobject fp_name="/testbench_top/ja" type="array">
+      <obj_property name="ElementShortName">ja[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ja[5:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/sim_enable" type="logic">
+      <obj_property name="ElementShortName">sim_enable</obj_property>
+      <obj_property name="ObjectShortName">sim_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/dataValid" type="logic">
+      <obj_property name="ElementShortName">dataValid</obj_property>
+      <obj_property name="ObjectShortName">dataValid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider104">
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/rxData" type="array">
+      <obj_property name="ElementShortName">rxData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/txReady" type="logic">
+      <obj_property name="ElementShortName">txReady</obj_property>
+      <obj_property name="ObjectShortName">txReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/txSend" type="logic">
+      <obj_property name="ElementShortName">txSend</obj_property>
+      <obj_property name="ObjectShortName">txSend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/txData" type="array">
+      <obj_property name="ElementShortName">txData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">txData[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider89">
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/uartState" type="array">
+      <obj_property name="ElementShortName">uartState[31:0]</obj_property>
+      <obj_property name="ObjectShortName">uartState[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/hostIsWrite" type="logic">
+      <obj_property name="ElementShortName">hostIsWrite</obj_property>
+      <obj_property name="ObjectShortName">hostIsWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/hostIsReady" type="logic">
+      <obj_property name="ElementShortName">hostIsReady</obj_property>
+      <obj_property name="ObjectShortName">hostIsReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/hostStart" type="logic">
+      <obj_property name="ElementShortName">hostStart</obj_property>
+      <obj_property name="ObjectShortName">hostStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/hostAddr" type="array">
+      <obj_property name="ElementShortName">hostAddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hostAddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/hostInData" type="array">
+      <obj_property name="ElementShortName">hostInData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hostInData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/hostGotResponse" type="logic">
+      <obj_property name="ElementShortName">hostGotResponse</obj_property>
+      <obj_property name="ObjectShortName">hostGotResponse</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider98">
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/hostOutData" type="array">
+      <obj_property name="ElementShortName">hostOutData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hostOutData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/controlHostAddr" type="array">
+      <obj_property name="ElementShortName">controlHostAddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">controlHostAddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/controlHostInData" type="array">
+      <obj_property name="ElementShortName">controlHostInData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">controlHostInData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/controlHostIsWrite" type="logic">
+      <obj_property name="ElementShortName">controlHostIsWrite</obj_property>
+      <obj_property name="ObjectShortName">controlHostIsWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/controlHostStart" type="logic">
+      <obj_property name="ElementShortName">controlHostStart</obj_property>
+      <obj_property name="ObjectShortName">controlHostStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/smHostAddr" type="array">
+      <obj_property name="ElementShortName">smHostAddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">smHostAddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider106">
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hrFifoDin" type="array">
+      <obj_property name="ElementShortName">hrFifoDin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hrFifoDin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hrFifoWren" type="logic">
+      <obj_property name="ElementShortName">hrFifoWren</obj_property>
+      <obj_property name="ObjectShortName">hrFifoWren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hrFifoDout" type="array">
+      <obj_property name="ElementShortName">hrFifoDout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hrFifoDout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hrFifoRden" type="logic">
+      <obj_property name="ElementShortName">hrFifoRden</obj_property>
+      <obj_property name="ObjectShortName">hrFifoRden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hwFifoDin" type="array">
+      <obj_property name="ElementShortName">hwFifoDin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hwFifoDin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hwFifoWren" type="logic">
+      <obj_property name="ElementShortName">hwFifoWren</obj_property>
+      <obj_property name="ObjectShortName">hwFifoWren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hwFifoDout" type="array">
+      <obj_property name="ElementShortName">hwFifoDout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hwFifoDout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hwFifoRden" type="logic">
+      <obj_property name="ElementShortName">hwFifoRden</obj_property>
+      <obj_property name="ObjectShortName">hwFifoRden</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider354">
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hostState" type="array">
+      <obj_property name="ElementShortName">hostState[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hostState[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/hostShouldSend" type="logic">
+      <obj_property name="ElementShortName">hostShouldSend</obj_property>
+      <obj_property name="ObjectShortName">hostShouldSend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/hostShouldGo" type="logic">
+      <obj_property name="ElementShortName">hostShouldGo</obj_property>
+      <obj_property name="ObjectShortName">hostShouldGo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/idleCount" type="array">
+      <obj_property name="ElementShortName">idleCount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">idleCount[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/hostIsReady" type="logic">
+      <obj_property name="ElementShortName">hostIsReady</obj_property>
+      <obj_property name="ObjectShortName">hostIsReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/commandOnlyHostSM/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider127">
+   </wvobject>
+   <wvobject fp_name="/testbench_top/dut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+</wave_config>

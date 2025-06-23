@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_TPMManager_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_TPMManager" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8.092541 us"></ZoomStartTime>
+      <ZoomEndTime time="23.581492 us"></ZoomEndTime>
+      <Cursor1Time time="21.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="207"></NameColumnWidth>
+      <ValueColumnWidth column_width="89"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="60" />
+   <wvobject fp_name="/testbench_TPMManager/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider48">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/periphAddr" type="array">
+      <obj_property name="ElementShortName">periphAddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">periphAddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/periphInData" type="array">
+      <obj_property name="ElementShortName">periphInData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">periphInData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/periphOutData" type="array">
+      <obj_property name="ElementShortName">periphOutData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">periphOutData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/periphDidWrite" type="logic">
+      <obj_property name="ElementShortName">periphDidWrite</obj_property>
+      <obj_property name="ObjectShortName">periphDidWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/periphDidRead" type="logic">
+      <obj_property name="ElementShortName">periphDidRead</obj_property>
+      <obj_property name="ObjectShortName">periphDidRead</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider91">
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/hostAddr" type="array">
+      <obj_property name="ElementShortName">hostAddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hostAddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/hostInData" type="array">
+      <obj_property name="ElementShortName">hostInData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hostInData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/hostIsWrite" type="logic">
+      <obj_property name="ElementShortName">hostIsWrite</obj_property>
+      <obj_property name="ObjectShortName">hostIsWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/hostStart" type="logic">
+      <obj_property name="ElementShortName">hostStart</obj_property>
+      <obj_property name="ObjectShortName">hostStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/hostOutData" type="array">
+      <obj_property name="ElementShortName">hostOutData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hostOutData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/hostGotResponse" type="logic">
+      <obj_property name="ElementShortName">hostGotResponse</obj_property>
+      <obj_property name="ObjectShortName">hostGotResponse</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider119">
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/hrFifoEmpty" type="logic">
+      <obj_property name="ElementShortName">hrFifoEmpty</obj_property>
+      <obj_property name="ObjectShortName">hrFifoEmpty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/uartRxData" type="array">
+      <obj_property name="ElementShortName">uartRxData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uartRxData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/uartDataValid" type="logic">
+      <obj_property name="ElementShortName">uartDataValid</obj_property>
+      <obj_property name="ObjectShortName">uartDataValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/uartRxState" type="array">
+      <obj_property name="ElementShortName">uartRxState[31:0]</obj_property>
+      <obj_property name="ObjectShortName">uartRxState[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider56">
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/uartTxReady" type="logic">
+      <obj_property name="ElementShortName">uartTxReady</obj_property>
+      <obj_property name="ObjectShortName">uartTxReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/uartTxData" type="array">
+      <obj_property name="ElementShortName">uartTxData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uartTxData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/uartTxSend" type="logic">
+      <obj_property name="ElementShortName">uartTxSend</obj_property>
+      <obj_property name="ObjectShortName">uartTxSend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/uartTxState" type="array">
+      <obj_property name="ElementShortName">uartTxState[31:0]</obj_property>
+      <obj_property name="ObjectShortName">uartTxState[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/pwFifoEmpty" type="logic">
+      <obj_property name="ElementShortName">pwFifoEmpty</obj_property>
+      <obj_property name="ObjectShortName">pwFifoEmpty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/pwFifoDout" type="array">
+      <obj_property name="ElementShortName">pwFifoDout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pwFifoDout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/pwFifoRden" type="logic">
+      <obj_property name="ElementShortName">pwFifoRden</obj_property>
+      <obj_property name="ObjectShortName">pwFifoRden</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider113">
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/accessState" type="array">
+      <obj_property name="ElementShortName">accessState[31:0]</obj_property>
+      <obj_property name="ObjectShortName">accessState[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/statusState" type="array">
+      <obj_property name="ElementShortName">statusState[31:0]</obj_property>
+      <obj_property name="ObjectShortName">statusState[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/simState" type="array">
+      <obj_property name="ElementShortName">simState[31:0]</obj_property>
+      <obj_property name="ObjectShortName">simState[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider62">
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/bytesReceived" type="array">
+      <obj_property name="ElementShortName">bytesReceived[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bytesReceived[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/commandSize" type="array">
+      <obj_property name="ElementShortName">commandSize[31:0]</obj_property>
+      <obj_property name="ObjectShortName">commandSize[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/commandSizeBytes" type="array">
+      <obj_property name="ElementShortName">commandSizeBytes[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">commandSizeBytes[3:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider35">
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/hostStateMachine/hostIsReady" type="logic">
+      <obj_property name="ElementShortName">hostIsReady</obj_property>
+      <obj_property name="ObjectShortName">hostIsReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/hostStateMachine/stateFifoEmpty" type="logic">
+      <obj_property name="ElementShortName">stateFifoEmpty</obj_property>
+      <obj_property name="ObjectShortName">stateFifoEmpty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/hostStateMachine/hostShouldSend" type="logic">
+      <obj_property name="ElementShortName">hostShouldSend</obj_property>
+      <obj_property name="ObjectShortName">hostShouldSend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/hostStateMachine/hostShouldGo" type="logic">
+      <obj_property name="ElementShortName">hostShouldGo</obj_property>
+      <obj_property name="ObjectShortName">hostShouldGo</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider299">
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/stateFifoWren" type="logic">
+      <obj_property name="ElementShortName">stateFifoWren</obj_property>
+      <obj_property name="ObjectShortName">stateFifoWren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/stateFifoDin" type="array">
+      <obj_property name="ElementShortName">stateFifoDin[23:0]</obj_property>
+      <obj_property name="ObjectShortName">stateFifoDin[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/stateFifoDout" type="array">
+      <obj_property name="ElementShortName">stateFifoDout[23:0]</obj_property>
+      <obj_property name="ObjectShortName">stateFifoDout[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/hostStateMachine/hwFifoEmpty" type="logic">
+      <obj_property name="ElementShortName">hwFifoEmpty</obj_property>
+      <obj_property name="ObjectShortName">hwFifoEmpty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/hostStateMachine/hwFifoWren" type="logic">
+      <obj_property name="ElementShortName">hwFifoWren</obj_property>
+      <obj_property name="ObjectShortName">hwFifoWren</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider308">
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/prAlmostEmpty" type="logic">
+      <obj_property name="ElementShortName">prAlmostEmpty</obj_property>
+      <obj_property name="ObjectShortName">prAlmostEmpty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/prFifoWren" type="logic">
+      <obj_property name="ElementShortName">prFifoWren</obj_property>
+      <obj_property name="ObjectShortName">prFifoWren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/prFifoRden" type="logic">
+      <obj_property name="ElementShortName">prFifoRden</obj_property>
+      <obj_property name="ObjectShortName">prFifoRden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/prFifoDout" type="array">
+      <obj_property name="ElementShortName">prFifoDout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">prFifoDout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/dut/peripheralStateMachine/prFifoDin" type="array">
+      <obj_property name="ElementShortName">prFifoDin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">prFifoDin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/tpmBytesReceived" type="array">
+      <obj_property name="ElementShortName">tpmBytesReceived[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tpmBytesReceived[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/tpmCommandLengthBytes" type="array">
+      <obj_property name="ElementShortName">tpmCommandLengthBytes[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">tpmCommandLengthBytes[3:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/tpmCommandLength" type="array">
+      <obj_property name="ElementShortName">tpmCommandLength[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tpmCommandLength[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/responseLen" type="array">
+      <obj_property name="ElementShortName">responseLen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">responseLen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/tpmBytesRead" type="array">
+      <obj_property name="ElementShortName">tpmBytesRead[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tpmBytesRead[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider81">
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/result" type="array">
+      <obj_property name="ElementShortName">result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">result[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_TPMManager/garbage" type="array">
+      <obj_property name="ElementShortName">garbage[7:0]</obj_property>
+      <obj_property name="ObjectShortName">garbage[7:0]</obj_property>
+   </wvobject>
+</wave_config>

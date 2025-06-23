@@ -1,0 +1,248 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+* Section (5) - CONFIGURATION SETTINGS/FILES
+*  This section summarizes the configuration settings/files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = verilog
+Directory = C:/Users/user/Documents/verilog
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - Excluded Runs
+---------------------------
+The run results were excluded for the following runs in the archived project:-
+
+<synth_1>
+<clk_wiz_0_synth_1>
+<stateBufFifo_synth_1>
+<fifo_generator_1_synth_1>
+<impl_1>
+<clk_wiz_0_impl_1>
+<stateBufFifo_impl_1>
+<fifo_generator_1_impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<clk_wiz_0>
+None
+
+<fifo_generator_1>
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/doc/fifo_generator_v13_2_changelog.txt
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.vho
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.veo
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/simulation/fifo_generator_vlog_beh.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/hdl/fifo_generator_v13_2_rfs.vhd
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/hdl/fifo_generator_v13_2_rfs.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.dcp
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_stub.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_stub.vhdl
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_sim_netlist.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_sim_netlist.vhdl
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.xdc
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/synth/fifo_generator_1.vhd
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_ooc.xdc
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.xml
+
+<stateBufFifo>
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/doc/fifo_generator_v13_2_changelog.txt
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.vho
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.veo
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/simulation/fifo_generator_vlog_beh.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/hdl/fifo_generator_v13_2_rfs.vhd
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/hdl/fifo_generator_v13_2_rfs.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/sim/stateBufFifo.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.dcp
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_stub.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_stub.vhdl
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_sim_netlist.v
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_sim_netlist.vhdl
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.xdc
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/synth/stateBufFifo.vhd
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_ooc.xdc
+c:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/.Xil/Vivado-16488-Max-LT/PrjAr/_X_/verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.xml
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+None
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./verilog.srcs/sources_1/new/HostStateMachine.sv
+./verilog.srcs/sources_1/new/PeripheralStateMachine.sv
+./verilog.srcs/sources_1/new/TPMManager.sv
+
+<constrs_1>
+./verilog.srcs/constrs_1/imports/Downloads/Arty-A7-35-Master.xdc
+
+<sim_1>
+./verilog.srcs/sim_1/new/testbench_TPMManager.sv
+./verilog.srcs/sim_1/imports/verilog/testbench_LPCHost_behav.wcfg
+./verilog.srcs/sim_1/imports/verilog/testbench_TPMManager_behav.wcfg
+
+<utils_1>
+./verilog.srcs/utils_1/imports/synth_1/top.dcp
+
+<clk_wiz_0>
+None
+
+<stateBufFifo>
+./verilog.srcs/sources_1/ip/stateBufFifo/stateBufFifo.xci
+./verilog.gen/sources_1/ip/stateBufFifo/doc/fifo_generator_v13_2_changelog.txt
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.vho
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.veo
+./verilog.gen/sources_1/ip/stateBufFifo/simulation/fifo_generator_vlog_beh.v
+./verilog.gen/sources_1/ip/stateBufFifo/hdl/fifo_generator_v13_2_rfs.vhd
+./verilog.gen/sources_1/ip/stateBufFifo/hdl/fifo_generator_v13_2_rfs.v
+./verilog.gen/sources_1/ip/stateBufFifo/sim/stateBufFifo.v
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.dcp
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_stub.v
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_stub.vhdl
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_sim_netlist.v
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_sim_netlist.vhdl
+./verilog.gen/sources_1/ip/stateBufFifo/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.xdc
+./verilog.gen/sources_1/ip/stateBufFifo/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./verilog.gen/sources_1/ip/stateBufFifo/synth/stateBufFifo.vhd
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo_ooc.xdc
+./verilog.gen/sources_1/ip/stateBufFifo/stateBufFifo.xml
+
+<fifo_generator_1>
+./verilog.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.xci
+./verilog.gen/sources_1/ip/fifo_generator_1/doc/fifo_generator_v13_2_changelog.txt
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.vho
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.veo
+./verilog.gen/sources_1/ip/fifo_generator_1/simulation/fifo_generator_vlog_beh.v
+./verilog.gen/sources_1/ip/fifo_generator_1/hdl/fifo_generator_v13_2_rfs.vhd
+./verilog.gen/sources_1/ip/fifo_generator_1/hdl/fifo_generator_v13_2_rfs.v
+./verilog.gen/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.dcp
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_stub.v
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_stub.vhdl
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_sim_netlist.v
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_sim_netlist.vhdl
+./verilog.gen/sources_1/ip/fifo_generator_1/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.xdc
+./verilog.gen/sources_1/ip/fifo_generator_1/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./verilog.gen/sources_1/ip/fifo_generator_1/synth/fifo_generator_1.vhd
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_ooc.xdc
+./verilog.gen/sources_1/ip/fifo_generator_1/fifo_generator_1.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+<clk_wiz_0>
+None
+
+<stateBufFifo>
+None
+
+<fifo_generator_1>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/vivado.jou
+Archived Location = ./verilog/vivado.jou
+
+Source File = C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/vivado.log
+Archived Location = ./verilog/vivado.log
+
+Section (5) - CONFIGURATION SETTINGS/FILES
+------------------------------------------
+List of configuration settings/files that were added to the archived project:-
+
+
